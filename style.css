@@ -1,0 +1,153 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* --- Скеоморфизм --- */
+.skeuo {
+  background: linear-gradient(145deg, #fefefe, #e2e2e2);
+  box-shadow: 8px 8px 20px #c1c1c1, -8px -8px 20px #ffffff;
+}
+
+.skeuo img {
+  box-shadow: inset 2px 2px 6px rgba(0,0,0,0.2), inset -2px -2px 6px rgba(255,255,255,0.8);
+}
+
+.skeuo h2 {
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.8), -1px -1px 2px rgba(0,0,0,0.1);
+}
+
+.skeuo .price {
+  color: #222;
+}
+
+.skeuo .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to bottom, #ffcc66, #cc9900);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(255,255,255,0.6);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.skeuo .btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to bottom, #ffdd77, #b8860b);
+}
+
+/* --- Flat --- */
+.flat {
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.flat h2 {
+  color: #222;
+  font-weight: 600;
+}
+
+.flat .price {
+  color: #009688;
+}
+
+.flat .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #009688;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.flat .btn:hover {
+  background: #00796b;
+}
+
+/* --- Material Design --- */
+.material {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.material:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.material h2 {
+  color: #212121;
+  font-weight: 500;
+}
+
+.material .price {
+  color: #3f51b5;
+}
+
+.material .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #3f51b5;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.material .btn:hover {
+  background: #303f9f;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: regular;
+  margin-bottom: 10px;
+}
